@@ -1,0 +1,55 @@
+/*HEADER CSS */
+
+.headerCSS {
+  background: url(/IMG/background-main.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+/*NAV CSS */
+.NavOverlay {
+  background-color: rgba(0,0,0,.4);
+}
+.snavCSS {
+  background-color: rgba(255,255,255,.7);
+}
+
+.NavLogo {
+  padding-top: 5px;
+  max-width: 260px;
+  min-width: 260px;
+  max-height: 55px;
+  min-height: 55px;
+  padding-bottom: 2px;
+}
+
+.FontNav {
+  color:white ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/*Main CSS */
+/*.btn-extend {
+  display:block;
+  width:50%;
+  text-align: center;
+}
+
+/*Footer CSS */
+footer {
+  background: url(/IMG/background-main.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+/*sticky footer*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
